@@ -18,8 +18,8 @@ class index_controller extends appcontroller
 		$usrObj = new image();
 		//echo ($id. "prueba");
       	$datos = $usrObj->getUserComputers($id=null);
-      	print_r($datos);   
-    	//echo json_encode($datos);
+      	//print_r($datos);   
+    	echo json_encode($datos);
 	}
 
 
